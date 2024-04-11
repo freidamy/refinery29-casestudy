@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+
+  --coral: #EF4B4B;
+  --hotpink: #E5069A;
+  --mustard: #F89D2B;
+  --mint: #29FFBC;
+  --darkestgray: #333333;
+  --darkgray: #787679;
+  --headerdisplay: "Playfair Display";
+  --bodydisplay: "Brown";
+  --bodyregular: "Georgia";
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('/System/Library/Fonts/Brown') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('/System/Library/Fonts/Georgia') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: var(--bodyregular);
+  font-size: 17px;
+  line-height: 28.1px;
+  color: var(--darkestgray);
+}
+
+a{
+  color: var(--darkestgray);
+  text-decoration: none;
+  border-bottom: 2px solid var(--mint);
+}
