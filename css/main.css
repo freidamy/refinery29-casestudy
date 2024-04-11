@@ -31,6 +31,8 @@ html {
   box-sizing: inherit;
 }
 
+/* typography */
+
 body{
   font-family: var(--bodyregular);
   font-size: 17px;
@@ -38,8 +40,43 @@ body{
   color: var(--darkestgray);
 }
 
+h1, h2, h3, h4, h5{
+  font-family: var(--headerdisplay);
+  line-height: 1.2;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+h3{
+  font-size: 16px;
+}
+
 a{
   color: var(--darkestgray);
   text-decoration: none;
   border-bottom: 2px solid var(--mint);
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+.component img{
+  max-width: initial;
+}
+
+.component--img{
+  border: 1px solid #ccc;
+  overflow-x:auto;
+}
+
+.component--code{
+  border: 1px solid #ccc;
 }
