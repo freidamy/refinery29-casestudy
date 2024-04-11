@@ -1,2 +1,2 @@
-# refinery29-casestudy
+# Refinery 29 Case Study
 Case study of a design system for web development
