@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5{
   font-family: var(--headerdisplay);
   line-height: 1.2;
   margin: 0;
+  padding: 0;
 }
 
 h1{
@@ -99,13 +100,9 @@ img{
 }
 
 .component--img{
-  border: 1px solid #ccc;
   overflow-x:auto;
 }
 
-.component--code{
-  border: 1px solid #ccc;
-}
 
 /* main navigation */
 
@@ -293,4 +290,102 @@ img{
 .article--label{
   color: var(--darkgray);
 }
+
+/* shopping tile */
+
+.shopping--tile{
+  background-color: white;
+  border: 1px solid #EFEFF0;
+  max-width: 290px;
+  padding: 10px 0px 20px 20px;
+  height: 137px;
+}
+
+
+.shopping-tile-desc p{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.price{
+  color: black;
+  font-size: 12px;
+}
+
+.brand{
+  color: black;
+  font-size: 10px;
+}
+
+.shopping-button{
+  max-width: 70px;
+  height: 30px;
+  padding: 0px 3px;
+  margin-right: 12px;
+  background-color: #20E480;
+}
+
+.shopping-button p{
+  font-size: 10px;
+  color: black;
+  text-align: center;
+  margin: auto;
+}
+
+.shopping-price p{
+  margin: 0;
+  padding: 0;
+}
+
+.button-price{
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  grid-template-rows: 60px;
+  max-width: 175px;
+  margin-top: 20px;
+}
+
+.button-price p{
+  margin: 0;
+  padding: 0;
+}
+
+/* other */
+
+.block-quote{
+  max-width: 100%;
+  background-color: var(--coral);
+  margin: auto;
+  padding: 50px 150px;
+  color: white;
+}
+
+.block-quote h1{
+  font-size: 40px;
+}
+
+.block-quote p{
+  font-size: 12px;
+}
+
+/* shopping tile section*/
+
+.shopping-tile-section{
+  padding: 30px;
+  max-width: 720px;
+  background-color: #F5F5F5;
+  height: 350px;
+}
+
+.shopping-tile-section h3{
+  font-size: 20px;
+  font-family: var(--bodydisplay);
+  color: black;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+
+
 
