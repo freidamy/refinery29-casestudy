@@ -247,6 +247,7 @@ img{
 
 .article-tile-text{
   padding: 20px 25px 30px 25px;
+  max-width: 300px;
 }
 
 .article--label{
@@ -272,6 +273,48 @@ img{
 .article-tile-2 img{
   max-width:300px;
 }
+
+/* article tile 3 */
+
+.article-tile-3{
+  display: grid;
+  background-color: black;
+  color: white;
+  grid-template-columns: 75% 1fr;
+  height: 150px;
+  max-width: 50%;
+  padding-left: 80px;
+}
+
+.article-tile-3 img{
+  max-width: 190px;
+}
+
+.article-tile-3 p{
+  color: white;
+}
+
+/* article tile 4 */
+
+.article-tile-4{
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1fr 1fr;
+  max-width: 350px;
+}
+
+.article-tile-4 img{
+  max-width: 150px;
+}
+
+.article-tile-4 p{
+  font-size: 10px;
+}
+
+.article-tile-4 h5{
+  margin-bottom: 40px;
+}
+
 
 /* collection tile */
 .collection--tile{
@@ -352,6 +395,24 @@ img{
 }
 
 /* other */
+
+/* button */
+
+.button{
+  max-width: 150px;
+  background-color: var(--coral);
+  color: white;
+  padding: 0.5px 0px;
+  border-radius: 30px;
+}
+
+.button p{
+  text-align: center;
+}
+
+
+
+/* block quote */
 
 .block-quote{
   max-width: 100%;
