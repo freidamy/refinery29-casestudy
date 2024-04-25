@@ -7,6 +7,7 @@ html {
   --mint: #29FFBC;
   --darkestgray: #333333;
   --darkgray: #787679;
+  --lightgray: #F5F5F5;
   --headerdisplay: "Playfair Display";
   --bodydisplay: "Brown";
   --bodyregular: "Georgia";
@@ -43,9 +44,6 @@ html {
   display: grid;
   grid-template-columns: 250px 1fr;
   max-width: 700px;
-}
-
-body{
   padding: 40px;
 }
 
@@ -177,6 +175,41 @@ img{
 
 }
 
+.hero--section{
+  background-image: url("../img/zendaya-tennis.png");
+  height: 600px;
+  max-width: 100%;
+  background-size: cover;
+  color: white;
+}
+
+.hero--section--text{
+  padding: 200px 100px;
+}
+
+.hero-article-text{
+  max-width: 50%;
+
+}
+
+.article--row{
+  display: grid;
+  grid-template-columns: 50% 1fr 1fr;
+  margin: 10px 0px;
+}
+
+.article-image-tile{
+  background-color: black;
+}
+
+.article-image-tile img{
+  max-height: 150px;
+}
+
+.article-tile-image{
+  max-width: 100%;
+}
+
 /* footer */
 
 .footer--2 p{
@@ -258,21 +291,19 @@ img{
   border: none;
   cursor: pointer;
 }
-}
 
 /* article tile */
 .article-tile{
-  max-width: 300px;
-  border-bottom: 1px solid var(--coral);
+  border-bottom: 3px solid var(--coral);
 }
 
 .article-tile img{
-  max-width:300px;
+  max-height: 232px;
 }
 
 .article-tile-text{
   padding: 20px 25px 30px 25px;
-  max-width: 300px;
+  
 }
 
 .article--label{
@@ -284,6 +315,7 @@ img{
 .article-tile-2{
   max-width: 300px;
   border-bottom: 1px solid var(--coral);
+  background-color: white;
 }
 
 .article-author-date{
@@ -307,7 +339,6 @@ img{
   color: white;
   grid-template-columns: 75% 1fr;
   height: 150px;
-  max-width: 50%;
   padding-left: 80px;
 }
 
@@ -345,6 +376,7 @@ img{
 .collection--tile{
   max-width: 250px;
   padding-bottom: 20px;
+  background-color: white;
 }
 
 .collection-tile-text{
@@ -353,6 +385,27 @@ img{
 
 .collection--tile img{
   max-width:250px;
+}
+
+.article--label{
+  color: var(--darkgray);
+}
+
+/* main collection tile */
+.main--collection--tile{
+  display:grid;
+  grid-template-columns: 75% 1fr;
+  max-width: 100%;
+  background-color: white;
+  margin: 20px 0px;
+}
+
+.collection-tile-text{
+  padding: 10px;
+}
+
+.main--collection--tile img{
+  max-width: 100%;
 }
 
 .article--label{
@@ -472,6 +525,36 @@ img{
   margin-bottom: 20px;
 }
 
+.article--container{
+  background-color: var(--lightgray);
+  padding: 50px 150px;
+  margin: auto;
+}
 
 
+.article--row--2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+}
 
+.shopping--section{
+  margin-top: 30px;
+}
+
+.shopping--section h1{
+  color: var(--mustard);
+}
+
+.row--1{
+  max-width: 100%;
+}
+
+.row--2{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.watch--section{
+  background-color: black;
+}
