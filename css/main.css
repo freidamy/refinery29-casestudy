@@ -133,8 +133,11 @@ img{
   display: flex;
   align-items:center;
   justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0px 100px;
+}
+
+.main--nav i{
+  color: white;
 }
 
 .nav-button-text{
@@ -211,6 +214,10 @@ img{
 }
 
 /* footer */
+
+.footer{
+  margin-top: 30px;
+}
 
 .footer--2 p{
   color: var(--darkgray);
@@ -355,12 +362,13 @@ img{
 .article-tile-4{
   display: grid;
   background-color: white;
-  grid-template-columns: 1fr 1fr;
-  max-width: 350px;
+  grid-template-columns: 135px 1fr;
+  max-width: 300px;
+  margin-bottom: 20px;
 }
 
 .article-tile-4 img{
-  max-width: 150px;
+  max-width: 120px;
 }
 
 .article-tile-4 p{
@@ -368,7 +376,7 @@ img{
 }
 
 .article-tile-4 h5{
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 
 
@@ -472,6 +480,36 @@ img{
   padding: 0;
 }
 
+/* watch tile */
+
+.article--row--3{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.watch-tile{
+  color: white;
+  padding: 20px;
+}
+
+.watch-tile h5{
+  font-family: var(--bodyregular);
+  font-weight: lighter;
+}
+
+.watch-tile img{
+  max-width: 250px;
+}
+
+.watch-tile-text{
+  padding: 20px 25px 30px 25px;
+  
+}
+
+.watch--label{
+  color: var(--darkgray);
+}
+
 /* other */
 
 /* button */
@@ -482,6 +520,7 @@ img{
   color: white;
   padding: 0.5px 0px;
   border-radius: 30px;
+  margin: auto;
 }
 
 .button p{
@@ -557,4 +596,21 @@ img{
 
 .watch--section{
   background-color: black;
+  padding: 50px 150px;
+  margin: auto;
+}
+
+.watch--section h1{
+  color: white;
+  margin-bottom: 20px;
+}
+
+.watch--section h2{
+  color: var(--hotpink);
+}
+
+.multiple-articles{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px;
 }
