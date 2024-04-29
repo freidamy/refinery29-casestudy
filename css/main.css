@@ -71,6 +71,10 @@ body{
   color: var(--darkestgray);
 }
 
+body a{
+  color: white;
+}
+
 .body--display{
   font-family: var(--bodydisplay);
   font-size: 12px;
@@ -305,7 +309,8 @@ img{
 }
 
 .article-tile img{
-  max-height: 232px;
+  max-height: 300px;
+  display: cover;
 }
 
 .article-tile-text{
@@ -328,10 +333,6 @@ img{
 .article-author-date{
   display: grid;
   justify-content: space-between;
-}
-
-.date{
-  float: right;
 }
 
 .article-tile-2 img{
@@ -391,6 +392,10 @@ img{
   padding: 10px;
 }
 
+.collection-tile-text h2{
+  color: black;
+}
+
 .collection--tile img{
   max-width:250px;
 }
@@ -409,7 +414,8 @@ img{
 }
 
 .collection-tile-text{
-  padding: 10px;
+  padding: 15px;
+  margin: auto;
 }
 
 .main--collection--tile img{
@@ -489,7 +495,7 @@ img{
 
 .watch-tile{
   color: white;
-  padding: 20px;
+  padding: 50px 20px 0px 0px;
 }
 
 .watch-tile h5{
@@ -501,10 +507,6 @@ img{
   max-width: 250px;
 }
 
-.watch-tile-text{
-  padding: 20px 25px 30px 25px;
-  
-}
 
 .watch--label{
   color: var(--darkgray);
@@ -613,4 +615,9 @@ img{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 30px;
+}
+
+
+.article-tile-text h4{
+  color: black;
 }
